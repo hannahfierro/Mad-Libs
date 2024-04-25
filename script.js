@@ -6,7 +6,7 @@ document.getElementById('generateStory').addEventListener('click', function() {
     const noun = document.getElementById('noun').value;
     const adverb = document.getElementById('adverb').value;
   
-    const story = `Once upon a time ${name} lived far far away and was very ${adjective1} Ready to be leave home today and go explore the village.  ${name} felt ${adjective2} and ${adverb} free. ${name} couldn't help but ${verb} and offer her a ${noun}.`;
+    const story = `Once upon a time the princess/prince ${name} lived far far away and was very ${adjective1} Ready to be leave home today and go explore the village.  ${name} felt ${adjective2} and ${adverb} free. ${name} couldn't help but ${verb} and offer their village flowers and  ${noun}.`;
   
     document.getElementById('storyOutput').innerHTML = `<p>${story}</p>`;
   });
